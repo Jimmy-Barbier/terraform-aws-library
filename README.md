@@ -33,9 +33,7 @@ Chaque dossier correspond à un service AWS avec :
 ## 👤 Auteur
 
 **Jimmy Barbier** — Cloud Engineer en reconversion
-- LinkedIn : [ton LinkedIn]
-- GitHub : [ton GitHub]
-- TikTok/YouTube : @wybo.cyber
+- LinkedIn : https://www.linkedin.com/in/jimmy-barbier-89740539a/
 
 ## 📝 Notes
 
