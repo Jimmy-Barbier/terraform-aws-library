@@ -19,10 +19,22 @@ Chaque dossier correspond à un service AWS avec :
 
 ## 📦 Modules
 
-> 🚧 **Ce projet évolue au fil du temps.**
-> Les modules sont ajoutés progressivement au fur et à mesure 
-> de mon apprentissage. Chaque module est testé et documenté 
-> avant d'être publié.
+### 👤 IAM
+| Module | Description |
+|--------|-------------|
+| [create-user](./iam/create-user) | Crée un utilisateur IAM avec tags |
+
+### 💻 Compute
+🚧 En construction
+
+### 🗄️ Storage
+🚧 En construction
+
+### 🌐 Network
+🚧 En construction
+
+### 🗃️ Database
+🚧 En construction
 
 ## 🛠️ Prérequis
 
