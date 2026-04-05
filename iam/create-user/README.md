@@ -1,3 +1,7 @@
+![Terraform](https://img.shields.io/badge/Terraform-v1.0+-623CE4?logo=terraform)
+![AWS](https://img.shields.io/badge/AWS-IAM-FF9900?logo=amazonaws)
+![Status](https://img.shields.io/badge/Status-Testé-success)
+
 # 👤 IAM – Créer un utilisateur
 
 ## 📋 Description
