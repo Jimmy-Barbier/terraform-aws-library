@@ -8,13 +8,14 @@
 Ce module Terraform crée un bucket S3 sur AWS avec versioning et blocage d'accès public configurables.
 
 ## 📁 Structure du module
-
+```
 create-bucket/
 ├── main.tf          # Définit les ressources S3 à créer sur AWS
 ├── variables.tf     # Déclare les paramètres configurables
 ├── outputs.tf       # Retourne les informations après déploiement
 ├── terraform.tfvars # Tes valeurs personnelles — à créer toi-même (non inclus)
 └── assets/          # Screenshots de démonstration
+```
 
 ## 🛠️ Prérequis
 - Compte AWS actif
