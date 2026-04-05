@@ -28,7 +28,9 @@ Chaque dossier correspond à un service AWS avec :
 🚧 En construction
 
 ### 🗄️ Storage
-🚧 En construction
+| Module | Description |
+|--------|-------------|
+| [create-bucket](./storage/create-bucket) | Crée un bucket S3 avec versioning et block public access |
 
 ### 🌐 Network
 🚧 En construction
