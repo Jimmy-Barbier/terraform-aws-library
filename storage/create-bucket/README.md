@@ -16,13 +16,6 @@ create-bucket/
 ├── terraform.tfvars # Tes valeurs personnelles — à créer toi-même (non inclus)
 └── assets/          # Screenshots de démonstration
 
-create-user/
-├── main.tf          # Définit la ressource IAM user à créer sur AWS
-├── variables.tf     # Déclare les paramètres configurables (nom, tags)
-├── outputs.tf       # Retourne les informations après déploiement (nom, ARN)
-├── terraform.tfvars # Tes valeurs personnelles — à créer toi-même (non inclus)
-└── assets/          # Screenshots de démonstration
-
 ## 🛠️ Prérequis
 - Compte AWS actif
 - AWS CLI installé et configuré (`aws configure`)
