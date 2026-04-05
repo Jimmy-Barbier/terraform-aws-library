@@ -4,6 +4,16 @@
 Ce module Terraform crée un utilisateur IAM sur AWS avec des tags configurables.
 L'utilisateur est créé sans accès console — voir la section Notes pour plus d'informations.
 
+## 📁 Structure du module
+```
+create-user/
+├── main.tf          # Définit la ressource IAM user à créer sur AWS
+├── variables.tf     # Déclare les paramètres configurables (nom, tags)
+├── outputs.tf       # Retourne les informations après déploiement (nom, ARN)
+├── terraform.tfvars # Tes valeurs personnelles — à créer toi-même (non inclus)
+└── assets/          # Screenshots de démonstration
+```
+
 ## 🛠️ Prérequis
 - Compte AWS actif
 - AWS CLI installé et configuré (`aws configure`)
