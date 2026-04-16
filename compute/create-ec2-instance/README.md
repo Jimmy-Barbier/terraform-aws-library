@@ -22,7 +22,7 @@ create-ec2-instance/
 ├── main.tf           # Définit les ressources AWS à créer (EC2, SG, IAM)
 ├── variables.tf      # Déclare les paramètres configurables
 ├── outputs.tf        # Retourne les informations après déploiement
-├── terraform.tfvars  # Tes valeurs personnelles — à adapter avant de lancer
+├── terraform.tfvars  # À créer toi-même — non inclus dans le repo (voir Configuration)
 └── assets/           # Screenshots de démonstration
 ```
 
@@ -44,13 +44,21 @@ cd terraform-aws-library/compute/create-ec2-instance
 
 ## ⚙️ Configuration
 
-Édite le fichier `terraform.tfvars` avec tes valeurs :
+Crée un fichier `terraform.tfvars` dans le dossier `create-ec2-instance` avec tes valeurs :
 
 ```hcl
-instance_name = "mon-serveur-web"
-instance_type = "t3.micro"      # t3.micro recommandé pour eu-west-3 (Paris)
-vpc_id        = "vpc-xxxxxxxxxxxxxxxxx"
-subnet_id     = "subnet-xxxxxxxxxxxxxxxxx"
+instance_name    = "mon-serveur-web"
+instance_type    = "t3.micro"
+ami_id           = ""
+root_volume_size = 20
+
+vpc_id    = "vpc-xxxxxxxxxxxxxxxxx"
+subnet_id = "subnet-xxxxxxxxxxxxxxxxx"
+
+allowed_ports       = [80, 443]
+allowed_cidr_blocks = ["0.0.0.0/0"]
+
+user_data = ""
 
 tags = {
   Project     = "terraform-aws-library"
@@ -63,8 +71,8 @@ tags = {
 > ⚠️ **Free Tier** : En région `eu-west-3` (Paris), utilise `t3.micro` et non `t2.micro` qui n'est plus éligible au Free Tier.
 
 > 💡 **Comment trouver mon vpc_id et subnet_id ?**
-> Console AWS → VPC → Your VPCs → copie l'ID du VPC par défaut
-> Console AWS → VPC → Subnets → copie l'ID d'un subnet de ce VPC
+> - Console AWS → VPC → Your VPCs → copie l'ID du VPC par défaut
+> - Console AWS → VPC → Subnets → copie l'ID d'un subnet de ce VPC
 
 ## 🚀 Déploiement
 
