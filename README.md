@@ -30,6 +30,7 @@ Chaque dossier correspond à un service AWS avec :
 | Module | Description |
 |--------|-------------|
 | [create-bucket](./storage/create-bucket) | Crée un bucket S3 avec versioning et block public access |
+| [static-website-s3](./storage/static-website-s3) | Déploie un site statique HTML/CSS sur S3 |
 
 ### 🌐 Network
 🚧 En construction
