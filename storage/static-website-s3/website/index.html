@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jimmy Barbier – Cloud Engineer</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      background: #1A2332;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      padding: 2rem;
+    }
+    .container { text-align: center; max-width: 600px; width: 100%; }
+    .avatar {
+      width: 72px; height: 72px;
+      background: #FF9900;
+      border-radius: 50%;
+      margin: 0 auto 1.5rem;
+      display: flex; align-items: center; justify-content: center;
+      font-size: 28px; font-weight: 500; color: #1A2332;
+    }
+    h1 { color: #FFFFFF; font-size: 2rem; font-weight: 500; margin-bottom: 0.5rem; }
+    .role { color: #FF9900; font-size: 1.1rem; font-weight: 500; margin-bottom: 0.5rem; }
+    .project { color: #8899aa; font-size: 0.9rem; font-family: monospace; margin-bottom: 2rem; }
+    .divider { width: 48px; height: 2px; background: #FF9900; margin: 0 auto 2rem; }
+    .cards {
+      display: flex; gap: 1rem;
+      justify-content: center; flex-wrap: wrap;
+      margin-bottom: 2rem;
+    }
+    .card {
+      background: #243447;
+      border: 0.5px solid rgba(136,153,170,0.2);
+      border-radius: 8px;
+      padding: 0.75rem 1.5rem;
+    }
+    .card-label { color: #8899aa; font-size: 0.75rem; margin-bottom: 0.25rem; }
+    .card-value { color: #FFFFFF; font-size: 0.9rem; font-weight: 500; }
+    .footer { color: #8899aa; font-size: 0.75rem; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="avatar">JB</div>
+    <h1>Jimmy Barbier</h1>
+    <p class="role">Cloud Engineer en reconversion</p>
+    <p class="project">terraform-aws-library / storage/static-website-s3</p>
+    <div class="divider"></div>
+    <div class="cards">
+      <div class="card">
+        <p class="card-label">Certification</p>
+        <p class="card-value">AWS Cloud Practitioner</p>
+      </div>
+      <div class="card">
+        <p class="card-label">Infrastructure</p>
+        <p class="card-value">Terraform IaC</p>
+      </div>
+      <div class="card">
+        <p class="card-label">Région</p>
+        <p class="card-value">AWS eu-west-3</p>
+      </div>
+    </div>
+    <p class="footer">Hébergé sur Amazon S3 · Déployé avec Terraform</p>
+  </div>
+</body>
+</html>

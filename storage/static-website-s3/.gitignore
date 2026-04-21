@@ -1,0 +1,16 @@
+# Fichiers Terraform générés localement
+.terraform/
+.terraform.lock.hcl
+terraform.tfstate
+terraform.tfstate.backup
+*.tfplan
+
+# Variables sensibles
+*.auto.tfvars
+override.tf
+override.tf.json
+terraform.tfvars
+
+# Système
+.DS_Store
+Thumbs.db
