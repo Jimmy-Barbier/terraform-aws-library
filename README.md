@@ -44,9 +44,13 @@ Chaque dossier correspond à un service AWS avec :
 - AWS CLI configuré
 
 ## 👤 Auteur
-**Jimmy Barbier** — Cloud Engineer en reconversion
+
+**Jimmy Barbier**
+Cloud Engineer AWS en reconversion | Sécurité Cloud | Remote
+
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Jimmy_Barbier-blue?logo=linkedin)](https://www.linkedin.com/in/jimmy-barbier-89740539a/)
 [![Portfolio](https://img.shields.io/badge/Portfolio-jimmy--barbier.github.io-informational)](https://jimmy-barbier.github.io/portfolio/)
+
 
 ## 📝 Notes
 Ce projet évolue au fur et à mesure de mon apprentissage.
